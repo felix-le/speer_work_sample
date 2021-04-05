@@ -1,0 +1,87 @@
+//===== Colors =====//
+
+$heading-color: #1f1f25;
+$dark:  #191919;
+$gray: #D3D3D3;
+$white: white;
+$dark-red: #D24848;
+$dark-yellow: #ffb33f;
+$mauve: #20E1E8;
+$red-bg: #D34848;
+$light-purple-bg: #5E33D1;
+
+// Theme color
+$theme-color: $white;
+$border-color: $white;
+/*===============================
+    Font Family 
+=================================*/
+
+// Heading Font List
+$font-Helvetica                  : 'Helvetica Neue';
+
+// Typography
+$font-1:  $font-Helvetica, sans-serif;
+$fontList: $font-1;
+
+$body-font:  $font-1;
+$heading-font:  $font-1;
+
+$fontSizeHtml: 62.5%;
+$body-color: #1d1d24;
+
+// Letter spacing headers
+
+$letterSpacingHeaders: 2px;
+$lineHeightHeaders: 2;
+
+//===== Line Height =====//
+$body-line-height: 1.714286;
+//==== Font size =====//
+$body-font-size: 1.4rem;
+$h1: 3.2rem;
+$h2: 2.4rem;
+$h3: 1.872rem;
+$h4: 1.6rem;
+$h5: 1.328rem;
+$h6: 1.072rem;
+
+$small : 0.8rem;
+//===== Social Colors =====//
+$facebook : #3B5998;
+$twitter : #00ACEE;
+$google-plus : #DD4B39;
+$pinterest : #C8232C;
+$linkedin : #0E76A8;
+$flickr : #FF0084;
+$google : #dd4b39;
+$youtube : #cd201f;
+
+$fontTitle : $h1;
+
+
+// Layouts
+$smlg-device: 'only screen and (max-width: 1199px)';
+
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+
+$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm-layout:'only screen and (max-width: 767px)';
+$large-mobile: 'only screen and (max-width: 575px)';
+/* container 450px*/
+$small-mobile: 'only screen and (max-width: 479px)';
+/* container 300px*/
+
+@media #{$large-mobile} {
+    .container {
+        width: 450px;
+    }
+}
+
+@media #{$small-mobile} {
+    .container {
+        width: 320px;
+    }
+}

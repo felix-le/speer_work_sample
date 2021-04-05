@@ -1,0 +1,16 @@
+html {
+	overflow: hidden;
+	overflow-y: auto;
+  font-size: $fontSizeHtml;
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+	overflow: hidden;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $body-font;
+	color: $body-color;
+	font-weight: 400;
+}

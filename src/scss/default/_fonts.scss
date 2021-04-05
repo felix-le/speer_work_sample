@@ -1,0 +1,15 @@
+// Helvetica Neue
+$link-font-helvetica-otf: '../fonts/Helvetica-Neue/OTF/HelveticaNeue';
+// $link-font-helvetica-otf: '../'
+@include font-face($font-Helvetica, $link-font-helvetica-otf + '-UltraLight', 100, null, otf);
+@include font-face($font-Helvetica, $link-font-helvetica-otf + '-Light', 300, lighter, otf);
+@include font-face($font-Helvetica, $link-font-helvetica-otf, 400, normal, otf);
+@include font-face($font-Helvetica, $link-font-helvetica-otf + '-Medium', 500, null, otf);
+@include font-face($font-Helvetica, $link-font-helvetica-otf + '-Bold', 700, bold, otf);
+
+$link-font-helvetica-ttf: '../fonts/Helvetica-Neue/TTF/helveticaneue';
+@include font-face($font-Helvetica, $link-font-helvetica-ttf + 'ultralight', 100, null, ttf);
+@include font-face($font-Helvetica, $link-font-helvetica-ttf + 'light', 300, lighter, ttf);
+@include font-face($font-Helvetica, $link-font-helvetica-ttf, 400, normal, ttf);
+@include font-face($font-Helvetica, $link-font-helvetica-ttf + 'medium', 500, null, ttf);
+@include font-face($font-Helvetica, $link-font-helvetica-ttf + 'bold', 700, bold, ttf);

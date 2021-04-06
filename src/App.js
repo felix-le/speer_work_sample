@@ -1,5 +1,5 @@
 import HeroBanner from './components/heroBanner';
-
+import { slider } from './hooks/slider';
 const App = () => {
   return (
     <>
